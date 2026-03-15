@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detail Buku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo">SecondPage</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="katalog.html">Book</a></li>
+    </ul>
+  </nav>
+
+
+<!-- DETAIL PRODUK -->
+<section class="detail-wrapper">
+
+  <div class="detail-card">
+    
+    <button onclick="history.back()" class="btn-back">✖</button>
+
+    <div class="detail-img">
+      <img id="mainImg" class="img1">
+      <div class="thumbs">
+        <img id="thumb1" class="img1">
+        <img id="thumb2" class="img2">
+      </div>
+    </div>
+
+    <div class="detail-info">
+      <h1 id="judul"></h1>
+      <p class="harga" id="harga"></p>
+      <p><b>Penulis :</b> <span id="penulis"></span></p>
+      <p><b>Kondisi :</b> <span id="kondisi"></span></p>
+      <a id="waLink" class="btn">Beli via WhatsApp</a>
+    </div>
+
+  </div>
+
+</section>
+
+<script src="detail.js"></script>
+
+</body>
+</html>
